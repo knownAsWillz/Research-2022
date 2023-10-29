@@ -3,7 +3,7 @@ const crypto = require('crypto');
 
 const secretKey = '$C&F)J@NcRfUjXn2r4u7x!A%D*G-KaPd';
 
-const dataBuffer = fs.readFileSync('researchDatabase2.json');
+const dataBuffer = fs.readFileSync('db.json');
 const jsonString = dataBuffer.toString();
 const data = JSON.parse(jsonString);
 
