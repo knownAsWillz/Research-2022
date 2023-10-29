@@ -25,7 +25,7 @@ const options = {
   logger: console
 };
 
-const phoneNumber = '+639925161853'; // default number
+const phoneNumber = '';
 
 let data = loadDataFromFile();
 
